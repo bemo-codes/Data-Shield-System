@@ -64,7 +64,7 @@ def DirectoryBackup(SourceDir, DestDir):
     print(f"Backup process started. Log file created: {LogFileName}")
 
     fobj.write(Border + "\n")
-    fobj.write("---- Marvellous Data Shield: Backup & Sync Report ----\n")
+    fobj.write("---- Data Shield: Backup & Sync Report ----\n")
     fobj.write("Backup executed at: " + timestamp + "\n")
     fobj.write(Border + "\n")
 
